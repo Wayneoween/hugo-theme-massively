@@ -2,8 +2,8 @@
 <nav id="nav">
     <ul class="links">
         <li class="active"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></li>
-        {{ with .Site.Data.contactinfo }}
-        <li><a href="{{ .Site.BaseURL }}#footer">Kontakt</a></li>
+        {{ with .Site.Data.info }}
+        <li><a href="{{ .Site.BaseURL }}#footer">Info</a></li>
         {{ end }}
     </ul>
     {{ with .Site.Data.social }}
