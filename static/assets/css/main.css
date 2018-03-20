@@ -3539,7 +3539,7 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   display: block;
-  font-size: 0.8rem;
+  font-size: 14pt;
   outline: none;
   padding: 0 2rem;
 }
@@ -3615,13 +3615,27 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 }
 
 #main > .post header.major > h1, #main > .post header.major h2 {
-  font-size: 2.5rem;
-  line-height: 1.1;
+  font-size: 2rem;
+  line-height: 1;
   margin: 0 0 2rem 0;
 }
 
 #main > .post.featured {
   text-align: center;
+}
+
+#main > .post > p {
+  font-size: 14pt;
+  margin: 0 0 0.5rem 0;
+  max-width: 100%;
+}
+
+#main > .post > p > img {
+  max-width: 100%;
+}
+
+#main > .post > h3 {
+  margin: 1.5rem 0 1.5rem -2rem;
 }
 
 @media screen and (max-width: 1280px) {
@@ -3644,9 +3658,9 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
   }
 
   #main > .post header.major > h1, #main > .post header.major h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.2;
-    margin: 0 0 1.5rem 0;
+    margin: 0 0 1.5rem -1rem;
   }
 
 }
