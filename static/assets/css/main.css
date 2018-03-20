@@ -1637,7 +1637,7 @@ body {
 }
 
 body {
-  background-color: #1e252d;
+  background-color: #000;
 }
 
 body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3109,10 +3109,10 @@ body.is-loading #wrapper.fade-in:before {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -moz-justify-content: -moz-flex-end;
-  -webkit-justify-content: -webkit-flex-end;
-  -ms-justify-content: -ms-flex-end;
-  justify-content: flex-end;
+  -moz-justify-content: -moz-center;
+  -webkit-justify-content: -webkit-center;
+  -ms-justify-content: -ms-center;
+  justify-content: center;
   -moz-transition: opacity 1s ease, -moz-transform 1s ease;
   -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
   -ms-transition: opacity 1s ease, -ms-transform 1s ease;
@@ -3199,6 +3199,10 @@ body.is-loading #wrapper.fade-in:before {
 #intro h1 {
   font-size: 5rem;
   line-height: 1;
+  background-color: rgba(55, 55, 55, 0.5);
+  border-radius: 25px;
+  padding: 10px;
+  margin: auto;
 }
 
 #intro p {
@@ -3206,6 +3210,10 @@ body.is-loading #wrapper.fade-in:before {
   font-style: italic;
   margin-top: -0.25rem;
   text-align: center;
+  background-color: rgba(55, 55, 55, 0.5);
+  border-radius: 25px;
+  padding: 10px;
+  margin: auto;
 }
 
 #intro + #header {
