@@ -14,6 +14,9 @@
         <p>{{ .Description }}</p>
         <ul class="actions">
             <li><a href="{{ .Permalink }}" class="button">{{ .Site.Data.post.linktext }}</a></li>
+            {{ if .Params.homebrewerylink }}
+            <li><a href="{{ .Params.homebrewerylink }}" class="button">{{ .Site.Data.post.homebrewerylinktext }}</a></li>
+            {{ end }}
         </ul>
     </article>
     {{ end }}
