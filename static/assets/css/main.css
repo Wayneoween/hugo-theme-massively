@@ -1654,13 +1654,13 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 /* Type */
 
 html {
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 @media screen and (max-width: 1680px) {
 
   html {
-    font-size: 12pt;
+    font-size: 14pt;
   }
 
 }
@@ -1676,7 +1676,7 @@ html {
 @media screen and (max-width: 360px) {
 
   html {
-    font-size: 10pt;
+    font-size: 11pt;
   }
 
 }
@@ -1775,10 +1775,14 @@ sup {
 }
 
 blockquote {
-  border-left: solid 4px;
+  border-left: solid 6px;
   font-style: italic;
-  margin: 0 0 2rem 0;
-  padding: 0.5rem 0 0.5rem 2rem;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem 0 0.5rem 1rem;
+}
+
+blockquote > p {
+  margin: 0 0 1rem 0;
 }
 
 code {
@@ -3625,7 +3629,6 @@ body.is-loading #intro:not(.hidden) + #header + #nav {
 }
 
 #main > .post > p {
-  font-size: 14pt;
   margin: 0 0 0.5rem 0;
   max-width: 100%;
 }
