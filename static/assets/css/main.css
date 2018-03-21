@@ -1785,6 +1785,10 @@ blockquote > p {
   margin: 0 0 1rem 0;
 }
 
+blockquote > p > :last-child {
+  margin-bottom: 0;
+}
+
 code {
   border: solid 2px;
   font-family: "Courier New", monospace;
